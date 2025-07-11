@@ -7,6 +7,10 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import Home from "@/pages/Home";
 import Programs from "@/pages/Programs";
+import BJJProgram from "@/pages/programs/BJJProgram";
+import ArcheryProgram from "@/pages/programs/ArcheryProgram";
+import OutdoorWorkshopsProgram from "@/pages/programs/OutdoorWorkshopsProgram";
+import BullyproofingProgram from "@/pages/programs/BullyproofingProgram";
 import Schedule from "@/pages/Schedule";
 import Registration from "@/pages/Registration";
 import Testimonials from "@/pages/Testimonials";
@@ -21,6 +25,10 @@ function Router() {
         <Switch>
           <Route path="/" component={Home} />
           <Route path="/programs" component={Programs} />
+          <Route path="/programs/bjj" component={BJJProgram} />
+          <Route path="/programs/archery" component={ArcheryProgram} />
+          <Route path="/programs/outdoor-workshops" component={OutdoorWorkshopsProgram} />
+          <Route path="/programs/bullyproofing" component={BullyproofingProgram} />
           <Route path="/schedule" component={Schedule} />
           <Route path="/registration" component={Registration} />
           <Route path="/testimonials" component={Testimonials} />

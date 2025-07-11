@@ -26,6 +26,8 @@ export class MemStorage implements IStorage {
       ...insertRegistration,
       id,
       createdAt: new Date(),
+      experience: insertRegistration.experience || null,
+      questions: insertRegistration.questions || null,
     };
     this.registrations.set(id, registration);
     return registration;
