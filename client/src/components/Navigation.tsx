@@ -26,8 +26,8 @@ const Navigation = () => {
 
   const navItems = [
     { name: "Home", path: "/" },
+    { name: "Programs", path: "/programs" },
     { name: "Schedule", path: "/schedule" },
-    { name: "Registration", path: "/registration" },
     { name: "Testimonials", path: "/testimonials" },
     { name: "Contact", path: "/contact" },
   ];
@@ -110,7 +110,7 @@ const Navigation = () => {
                 )}
               </div>
 
-              {navItems.slice(1).map((item) => (
+              {navItems.slice(2).map((item) => (
                 <Link
                   key={item.name}
                   href={item.path}
@@ -203,7 +203,7 @@ const Navigation = () => {
               )}
             </div>
 
-            {navItems.slice(1).map((item) => (
+            {navItems.slice(2).map((item) => (
               <Link
                 key={item.name}
                 href={item.path}

@@ -12,7 +12,7 @@ import ArcheryProgram from "@/pages/programs/ArcheryProgram";
 import OutdoorWorkshopsProgram from "@/pages/programs/OutdoorWorkshopsProgram";
 import BullyproofingProgram from "@/pages/programs/BullyproofingProgram";
 import Schedule from "@/pages/Schedule";
-import Registration from "@/pages/Registration";
+
 import Testimonials from "@/pages/Testimonials";
 import Contact from "@/pages/Contact";
 import NotFound from "@/pages/not-found";
@@ -30,7 +30,7 @@ function Router() {
           <Route path="/programs/outdoor-workshops" component={OutdoorWorkshopsProgram} />
           <Route path="/programs/bullyproofing" component={BullyproofingProgram} />
           <Route path="/schedule" component={Schedule} />
-          <Route path="/registration" component={Registration} />
+
           <Route path="/testimonials" component={Testimonials} />
           <Route path="/contact" component={Contact} />
           <Route component={NotFound} />
