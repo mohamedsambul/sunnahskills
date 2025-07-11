@@ -15,26 +15,26 @@ const BullyproofingProgram = () => {
   const modules = [
     { 
       title: "Verbal Defense Skills", 
-      duration: "2 sessions", 
-      age: "6-15 years",
+      duration: "1 session", 
+      age: "8-14 years",
       content: "Learning to set clear boundaries, de-escalation techniques, and assertive communication"
     },
     { 
       title: "Situational Awareness", 
-      duration: "2 sessions", 
-      age: "8-15 years",
+      duration: "1 session", 
+      age: "8-14 years",
       content: "Recognizing dangerous situations, trusting instincts, and making smart decisions"
     },
     { 
       title: "Physical Protection", 
-      duration: "3 sessions", 
-      age: "8-15 years",
+      duration: "1 session", 
+      age: "8-14 years",
       content: "Basic grappling for distance control, escape techniques, and personal safety"
     },
     { 
       title: "Confidence Building", 
-      duration: "Ongoing", 
-      age: "6-15 years",
+      duration: "1 session", 
+      age: "8-14 years",
       content: "Building unshakeable self-confidence through Islamic principles and practical skills"
     },
   ];
@@ -94,7 +94,7 @@ const BullyproofingProgram = () => {
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {features.map((feature, index) => (
-                  <div key={index} className="flex items-center gap-3">
+                  <div key={index} className="flex items-center gap-3 p-3 bg-white rounded-lg shadow-sm">
                     <div className="text-primary">{feature.icon}</div>
                     <span className="text-gray-700">{feature.text}</span>
                   </div>

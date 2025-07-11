@@ -43,10 +43,10 @@ const Home = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
-              <Card className="bg-accent/50 hover:bg-accent/70 transition-colors duration-200">
-                <CardContent className="p-4 text-center">
-                  <Users className="text-primary mx-auto mb-2" size={32} />
-                  <h3 className="font-poppins font-semibold text-lg text-gray-800">
+              <Card className="bg-accent/50 hover:bg-accent/70 transition-colors duration-200 shadow-md">
+                <CardContent className="p-6 text-center">
+                  <Users className="text-primary mx-auto mb-4" size={32} />
+                  <h3 className="font-poppins font-semibold text-lg text-gray-800 mb-2">
                     Brazilian Jiu-Jitsu
                   </h3>
                   <p className="text-sm text-gray-600">
@@ -55,10 +55,10 @@ const Home = () => {
                 </CardContent>
               </Card>
               
-              <Card className="bg-accent/50 hover:bg-accent/70 transition-colors duration-200">
-                <CardContent className="p-4 text-center">
-                  <Target className="text-primary mx-auto mb-2" size={32} />
-                  <h3 className="font-poppins font-semibold text-lg text-gray-800">
+              <Card className="bg-accent/50 hover:bg-accent/70 transition-colors duration-200 shadow-md">
+                <CardContent className="p-6 text-center">
+                  <Target className="text-primary mx-auto mb-4" size={32} />
+                  <h3 className="font-poppins font-semibold text-lg text-gray-800 mb-2">
                     Archery
                   </h3>
                   <p className="text-sm text-gray-600">
@@ -67,10 +67,10 @@ const Home = () => {
                 </CardContent>
               </Card>
               
-              <Card className="bg-accent/50 hover:bg-accent/70 transition-colors duration-200">
-                <CardContent className="p-4 text-center">
-                  <TreePine className="text-primary mx-auto mb-2" size={32} />
-                  <h3 className="font-poppins font-semibold text-lg text-gray-800">
+              <Card className="bg-accent/50 hover:bg-accent/70 transition-colors duration-200 shadow-md">
+                <CardContent className="p-6 text-center">
+                  <TreePine className="text-primary mx-auto mb-4" size={32} />
+                  <h3 className="font-poppins font-semibold text-lg text-gray-800 mb-2">
                     Outdoor Skills
                   </h3>
                   <p className="text-sm text-gray-600">
@@ -79,10 +79,10 @@ const Home = () => {
                 </CardContent>
               </Card>
               
-              <Card className="bg-accent/50 hover:bg-accent/70 transition-colors duration-200">
-                <CardContent className="p-4 text-center">
-                  <Shield className="text-primary mx-auto mb-2" size={32} />
-                  <h3 className="font-poppins font-semibold text-lg text-gray-800">
+              <Card className="bg-accent/50 hover:bg-accent/70 transition-colors duration-200 shadow-md">
+                <CardContent className="p-6 text-center">
+                  <Shield className="text-primary mx-auto mb-4" size={32} />
+                  <h3 className="font-poppins font-semibold text-lg text-gray-800 mb-2">
                     Bullyproofing
                   </h3>
                   <p className="text-sm text-gray-600">

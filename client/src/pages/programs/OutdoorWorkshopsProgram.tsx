@@ -17,25 +17,25 @@ const OutdoorWorkshopsProgram = () => {
       title: "Basic Survival Skills", 
       age: "8-15 years", 
       duration: "Full Day",
-      skills: "Fire making, shelter building, water purification, basic first aid"
+      skills: "Fire making, shelter building, navigation, and knot tying fundamentals"
     },
     { 
-      title: "Navigation & Orienteering", 
+      title: "Advanced Fire Making", 
       age: "10-16 years", 
       duration: "Half Day",
-      skills: "Map reading, compass use, GPS basics, natural navigation signs"
+      skills: "In-depth fire making techniques, different materials and methods"
     },
     { 
-      title: "Outdoor Cooking", 
-      age: "6-14 years", 
+      title: "Shelter Building Mastery", 
+      age: "8-15 years", 
       duration: "Half Day",
-      skills: "Camp cooking, food safety, outdoor meal planning, halal considerations"
+      skills: "Advanced shelter construction for various weather conditions"
     },
     { 
-      title: "Nature Photography", 
-      age: "8-16 years", 
+      title: "Navigation & Knot Tying", 
+      age: "10-16 years", 
       duration: "Full Day",
-      skills: "Wildlife photography, composition, nature journaling, observation skills"
+      skills: "Advanced navigation techniques and comprehensive knot tying skills"
     },
   ];
 
@@ -92,7 +92,7 @@ const OutdoorWorkshopsProgram = () => {
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {features.map((feature, index) => (
-                  <div key={index} className="flex items-center gap-3">
+                  <div key={index} className="flex items-center gap-3 p-3 bg-white rounded-lg shadow-sm">
                     <div className="text-primary">{feature.icon}</div>
                     <span className="text-gray-700">{feature.text}</span>
                   </div>

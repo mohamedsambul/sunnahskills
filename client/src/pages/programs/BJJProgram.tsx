@@ -13,9 +13,11 @@ const BJJProgram = () => {
   ];
 
   const ageGroups = [
-    { group: "Little Warriors", age: "4-6 years", time: "30 minutes", focus: "Basic movements, listening skills, following instructions" },
-    { group: "Young Grapplers", age: "7-10 years", time: "45 minutes", focus: "Fundamental techniques, respect, teamwork" },
-    { group: "Teen Champions", age: "11-15 years", time: "60 minutes", focus: "Advanced techniques, competition preparation, leadership" },
+    { group: "Women & Girls (Youth)", age: "5-11 years", time: "45 minutes", focus: "Basic movements, fundamental techniques, confidence building" },
+    { group: "Women & Girls (Teen+)", age: "12+ years", time: "60 minutes", focus: "Advanced techniques, self-defense, leadership development" },
+    { group: "Boys (Youth)", age: "8-13 years", time: "45 minutes", focus: "Fundamental grappling, respect, teamwork" },
+    { group: "Boys (Teen+)", age: "14+ years", time: "60 minutes", focus: "Advanced techniques, competition preparation, mentorship" },
+    { group: "Little Kids Program", age: "Coming Soon", time: "30 minutes", focus: "Basic movements, following instructions, fun introduction to martial arts" },
   ];
 
   return (
@@ -63,7 +65,7 @@ const BJJProgram = () => {
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {features.map((feature, index) => (
-                  <div key={index} className="flex items-center gap-3">
+                  <div key={index} className="flex items-center gap-3 p-3 bg-white rounded-lg shadow-sm">
                     <div className="text-primary">{feature.icon}</div>
                     <span className="text-gray-700">{feature.text}</span>
                   </div>

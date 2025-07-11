@@ -12,24 +12,24 @@ const ArcheryProgram = () => {
     { icon: <Heart size={20} />, text: "Patience, perseverance, and self-control" },
   ];
 
-  const levels = [
+  const sessions = [
     { 
-      level: "Beginner Archers", 
-      age: "6-12 years", 
-      equipment: "Foam-tipped arrows, youth bows",
-      skills: "Basic stance, nocking, drawing, and releasing techniques"
+      time: "10:00 AM Session", 
+      skillLevel: "All Skill Groups", 
+      equipment: "Same equipment for all",
+      focus: "Individualized training based on skill level"
     },
     { 
-      level: "Intermediate Archers", 
-      age: "10-15 years", 
-      equipment: "Traditional recurve bows, target arrows",
-      skills: "Form refinement, distance shooting, competitive preparation"
+      time: "12:30 PM Session", 
+      skillLevel: "All Skill Groups", 
+      equipment: "Same equipment for all",
+      focus: "Individualized training based on skill level"
     },
     { 
-      level: "Advanced Archers", 
-      age: "13+ years", 
-      equipment: "Competition-grade equipment",
-      skills: "Advanced techniques, tournament preparation, teaching assistance"
+      time: "3:00 PM Session", 
+      skillLevel: "All Skill Groups", 
+      equipment: "Same equipment for all",
+      focus: "Individualized training based on skill level"
     },
   ];
 
@@ -79,7 +79,7 @@ const ArcheryProgram = () => {
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {features.map((feature, index) => (
-                  <div key={index} className="flex items-center gap-3">
+                  <div key={index} className="flex items-center gap-3 p-3 bg-white rounded-lg shadow-sm">
                     <div className="text-primary">{feature.icon}</div>
                     <span className="text-gray-700">{feature.text}</span>
                   </div>
@@ -103,23 +103,23 @@ const ArcheryProgram = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="font-poppins font-bold text-3xl md:text-4xl text-primary mb-4">
-              Progressive Skill Development
+              Session Times & Training
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Our archery program is structured to safely develop skills from complete beginner to competitive archer
+              Three daily sessions with individualized training based on each archer's skill level using the same quality equipment
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {levels.map((level, index) => (
+            {sessions.map((session, index) => (
               <Card key={index} className="h-full">
                 <CardHeader className="text-center">
-                  <CardTitle className="text-primary text-xl">{level.level}</CardTitle>
-                  <div className="text-2xl font-bold text-secondary">{level.age}</div>
-                  <div className="text-sm text-gray-600 italic">{level.equipment}</div>
+                  <CardTitle className="text-primary text-xl">{session.time}</CardTitle>
+                  <div className="text-lg font-bold text-secondary">{session.skillLevel}</div>
+                  <div className="text-sm text-gray-600 italic">{session.equipment}</div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-700 text-center">{level.skills}</p>
+                  <p className="text-gray-700 text-center">{session.focus}</p>
                 </CardContent>
               </Card>
             ))}

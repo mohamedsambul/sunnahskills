@@ -97,12 +97,12 @@ const Testimonials = () => {
                 Ready to see your child grow in confidence, skill, and character? 
                 Register today and become part of the Sunnah Skills family.
               </p>
-              <Link href="/registration">
+              <Link href="/contact">
                 <Button 
                   size="lg"
                   className="bg-primary hover:bg-earthGreen text-white font-semibold transition-all duration-200 transform hover:scale-105"
                 >
-                  Start Your Journey
+                  Get Started
                 </Button>
               </Link>
             </CardContent>
