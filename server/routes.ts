@@ -5,6 +5,15 @@ import { insertRegistrationSchema, insertContactSchema } from "@shared/schema";
 import { z } from "zod";
 
 export async function registerRoutes(app: Express): Promise<Server> {
+  // Health check endpoint for Render
+  app.get("/health", (req, res) => {
+    res.status(200).json({ 
+      status: "healthy", 
+      timestamp: new Date().toISOString(),
+      service: "sunnah-skills-api" 
+    });
+  });
+
   // Registration endpoint
   app.post("/api/registrations", async (req, res) => {
     try {
