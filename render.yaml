@@ -12,7 +12,7 @@ services:
         fromDatabase:
           name: sunnah-skills-db
           property: connectionString
-    healthCheckPath: /
+    healthCheckPath: /health
     
   # PostgreSQL Database
   - type: pgsql
