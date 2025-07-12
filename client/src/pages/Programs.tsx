@@ -7,7 +7,7 @@ const Programs = () => {
       id: "bjj",
       title: "Brazilian Jiu-Jitsu",
       icon: <Users className="text-primary" size={32} />,
-      image: "https://images.unsplash.com/photo-1555597673-b21d5c935865?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      image: "",
       description: "Our BJJ program teaches ground-based grappling techniques that emphasize leverage, technique, and strategy over strength. Students learn valuable life skills including patience, persistence, and problem-solving while developing physical fitness and self-confidence.",
       features: [
         { icon: <Users size={20} />, text: "Separate boys' and girls' classes" },
