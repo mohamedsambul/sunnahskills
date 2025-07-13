@@ -7,7 +7,7 @@ const Programs = () => {
       id: "bjj",
       title: "Brazilian Jiu-Jitsu",
       icon: <Users className="text-primary" size={32} />,
-      image: "https://images.unsplash.com/photo-1666816584311-ba40d5299760",
+      image: "https://plus.unsplash.com/premium_photo-1713170701344-41076b018b59?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmpqJTIwYmVsdHxlbnwwfHwwfHx8MA%3D%3D",
       description: "Our BJJ program teaches ground-based grappling techniques that emphasize leverage, technique, and strategy over strength. Students learn valuable life skills including patience, persistence, and problem-solving while developing physical fitness and self-confidence.",
       features: [
         { icon: <Users size={20} />, text: "Separate boys' and girls' classes" },
@@ -20,7 +20,7 @@ const Programs = () => {
       id: "archery",
       title: "Seasonal Archery",
       icon: <Target className="text-primary" size={32} />,
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      image: ""https://images.unsplash.com/photo-1666816584311-ba40d5299760",
       description: "Traditional archery instruction during summer and fall seasons. Students learn proper form, safety protocols, and mental focus while connecting with this ancient skill. Our program emphasizes mindfulness, concentration, and the satisfaction of steady improvement.",
       features: [
         { icon: <Calendar size={20} />, text: "Summer and fall seasonal sessions" },
@@ -33,7 +33,7 @@ const Programs = () => {
       id: "outdoor",
       title: "Outdoor Workshops",
       icon: <TreePine className="text-primary" size={32} />,
-      image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      image: https://images.unsplash.com/photo-1610029632807-589f1f0d7673?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2lsZGVybmVzcyUyMHNraWxsJTIwYnVpbGRpbmclMjBmaXJlJTIwbWF0Y2h8ZW58MHx8MHx8fDA%3D",
       description: "Hands-on wilderness education that teaches practical outdoor skills while fostering a deep connection with nature. Students gain confidence, problem-solving abilities, and environmental awareness through engaging, project-based learning experiences.",
       features: [
         { icon: <Flame size={20} />, text: "Fire building techniques and safety" },
