@@ -33,7 +33,7 @@ const Programs = () => {
       id: "outdoor",
       title: "Outdoor Workshops",
       icon: <TreePine className="text-primary" size={32} />,
-      image: https://images.unsplash.com/photo-1610029632807-589f1f0d7673?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2lsZGVybmVzcyUyMHNraWxsJTIwYnVpbGRpbmclMjBmaXJlJTIwbWF0Y2h8ZW58MHx8MHx8fDA%3D",
+      image: "https://images.unsplash.com/photo-1610029632807-589f1f0d7673?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2lsZGVybmVzcyUyMHNraWxsJTIwYnVpbGRpbmclMjBmaXJlJTIwbWF0Y2h8ZW58MHx8MHx8fDA%3D",
       description: "Hands-on wilderness education that teaches practical outdoor skills while fostering a deep connection with nature. Students gain confidence, problem-solving abilities, and environmental awareness through engaging, project-based learning experiences.",
       features: [
         { icon: <Flame size={20} />, text: "Fire building techniques and safety" },
