@@ -20,7 +20,7 @@ const Programs = () => {
       id: "archery",
       title: "Seasonal Archery",
       icon: <Target className="text-primary" size={32} />,
-      image: ""https://images.unsplash.com/photo-1666816584311-ba40d5299760",
+      image: "https://images.unsplash.com/photo-1666816584311-ba40d5299760",
       description: "Traditional archery instruction during summer and fall seasons. Students learn proper form, safety protocols, and mental focus while connecting with this ancient skill. Our program emphasizes mindfulness, concentration, and the satisfaction of steady improvement.",
       features: [
         { icon: <Calendar size={20} />, text: "Summer and fall seasonal sessions" },
